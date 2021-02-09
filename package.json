@@ -6,7 +6,8 @@
     "dist/*.js"
   ],
   "scripts": {
-    "dev": "ts-node-dev src/main.ts"
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc -p ."
   },
   "bin": {
     "fy": "node dest/src/cli.js"
