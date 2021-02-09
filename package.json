@@ -1,0 +1,24 @@
+{
+  "name": "node-translation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "dist/*.js"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts"
+  },
+  "bin": {
+    "fy": "node dest/src/cli.js"
+  },
+  "author": "bitSeaChan <moldysaltedfish@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.0",
+    "@types/node": "^14.14.25"
+  }
+}
